@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./demat.module.css";
+import styles from "./Demat.module.css";
 
 const Demat = () => {
   return (
     <div className={styles.dematSection}>
       {/* Left Side */}
       <div className={styles.left}>
-        <img src="/images/Mob.back.png" alt="Mobile" className={styles.mob} />
+        <img src="/images/Mobback.png" alt="Mobile" className={styles.mob} />
       </div>
 
       {/* Right Side */}
