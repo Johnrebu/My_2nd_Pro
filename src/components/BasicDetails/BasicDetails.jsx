@@ -5,7 +5,7 @@ const BasicDetails = () => {
   return (
     <div className="basic-details">
       <img
-        src="/images/Basic Details.png"
+        src="/images/BasicDetails.png"
         alt="Basic Details"
         className="basic-details-title"
       />
