@@ -1,0 +1,84 @@
+.aboutSection {
+  margin : 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+/* Logo on the top left */
+.logoWrapper {
+  position: absolute;
+  top: 30px;
+  left: 210px;
+  width: 200px;
+  height: fit-content;
+  display: inline-block;
+  position: relative;
+}
+
+.logo {
+
+
+}
+
+.centerLogo {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+
+
+/* Social media icons top right */
+.socialIcons {
+  position: absolute;
+  top: 30px;
+  right: 240px;
+  display: flex;
+  gap: 12px;
+}
+
+.socialIcons img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Columns container */
+.columns {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.column img {
+  width: 200px;
+  height: 20px;
+  object-fit: contain;
+
+}

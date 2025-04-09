@@ -1,0 +1,87 @@
+.dematSection {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Left side with mobile image */
+.left {
+  width: 50%;
+  position: relative;
+}
+
+.mob {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right side base background */
+.right {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rec47 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Foreground overlay card */
+.overlayBox {
+  position: relative;
+  width: 90%;
+  max-width: 500px;
+  z-index: 2;
+}
+
+.rec48 {
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  margin-left: -83px;
+}
+
+/* Content inside the Rec48 card */
+.content {
+  position: absolute;
+  top: 0;
+  left: -70px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 3;
+}
+
+/* Individual image styles */
+.get {
+  width: 180px;
+  margin-top: -22px;
+}
+
+.dematTitle {
+  width: 300px;
+  margin-top: -22px;
+
+}
+
+.description {
+  width: 310px;
+  margin-top: -12px;
+
+}
+
+.button {
+  width: 100px;
+  margin-top: 5px;
+}

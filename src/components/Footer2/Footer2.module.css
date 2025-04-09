@@ -1,0 +1,25 @@
+.footerContainer {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;;
+  background-position: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyrightImage {
+  top: 3738px;
+  left: 662px;
+  width: 597px;
+  height: 28px;
+  max-width: 90%;
+  object-fit: contain;
+}
