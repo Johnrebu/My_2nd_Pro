@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer2.module.css";
-import backgroundFooter from "/images/backround footer.png";
+import backgroundFooter from "/images/backroundfooter.png";
 import copyrightImg from "/images/Copyright.png";
 
 const Footer2 = () => {
