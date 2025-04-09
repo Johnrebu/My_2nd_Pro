@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./approach.module.css";
+import styles from "./Approach.module.css";
 
 const Approach = () => {
   return (
